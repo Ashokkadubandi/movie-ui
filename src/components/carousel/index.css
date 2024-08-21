@@ -1,0 +1,15 @@
+.carousel {
+  display: flex;
+  width: 500px;
+  height: 300px;
+  overflow-x: scroll;
+  border-radius: 20px;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.car-img {
+  width: 100%;
+  flex-shrink: 0;
+  border: 2px solid #fff;
+}

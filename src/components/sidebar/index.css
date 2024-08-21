@@ -1,0 +1,12 @@
+.sidebar-view {
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+  width: 15%;
+  position: fixed;
+}
+@media (max-width: 1200px) {
+  .sidebar-view {
+    display: none;
+  }
+}
